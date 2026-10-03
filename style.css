@@ -11,7 +11,7 @@
 
   /* ヘッダー */
   .site-header .brand strong {
-    font-size: 29px !important;
+    font-size: 31px !important;
   }
 
   .site-header .brand small {
@@ -19,11 +19,11 @@
   }
 
   .site-header nav a {
-    font-size: 18px !important;
+    font-size: 20px !important;
   }
 
   .site-header nav a small {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
 
  /* トップのメッセージ */
