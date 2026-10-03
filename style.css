@@ -26,26 +26,24 @@
     font-size: 12px !important;
   }
 
-  /* トップのメッセージ */
-  .hero-copy {
-    width: 55vw !important;
-    max-width: none !important;
-  }
+ /* トップのメッセージ */
+.hero-copy {
+  width: 50vw !important;
+  max-width: none !important;
+}
 
-  .hero h1 {
-    font-size: 58px !important;
-    white-space: nowrap;
-  }
+.hero h1 {
+  font-size: 50px !important;
+  white-space: nowrap;
+}
 
-  .hero h1 > .second {
-    font-size: 0.60em !important;
-    white-space: nowrap;
-  }
+.hero h1 > .second {
+  font-size: 0.58em !important;
+  white-space: nowrap;
+}
 
-  .hero .sub {
-    font-size: 18px !important;
-  }
-
+.hero .sub {
+  font-size: 18px !important;
 }
 
 .contact{
