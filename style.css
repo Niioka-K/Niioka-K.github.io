@@ -106,49 +106,57 @@
 
   
 /* ========================================
-   スマホ表示 最終調整
+   スマホ版 HERO 最終調整
    ======================================== */
-
 @media (max-width: 900px) {
 
-  /* ヘッダー */
-  .site-header {
-    height: 72px;
-    padding: 0 5vw;
+  .hero-copy {
+    left: 7vw !important;
+    width: 88vw !important;
+    top: 50% !important;
   }
 
-  /* 研究室名 */
-  .site-header .brand strong {
-    font-size: 18px;
-    letter-spacing: .04em;
+  /* 人はなぜ犯罪に至るのか */
+  .hero h1 {
+    font-size: 31px !important;
+    line-height: 1.35 !important;
+    white-space: normal !important;
   }
 
-  /* スマホでは英語研究室名を非表示 */
-  .site-header .brand small {
-    display: none;
+  /* なぜ犯罪に至らない者もいるのか */
+  .hero h1 > .second {
+    font-size: 0.72em !important;
+    line-height: 1.55 !important;
+    margin-top: 16px !important;
+    white-space: normal !important;
   }
 
-  /* PC用ナビゲーションを非表示 */
-  .site-header nav {
-    display: none;
+  /* 下の説明 */
+  .hero .sub {
+    font-size: 13px !important;
+    line-height: 1.9 !important;
+    margin-top: 25px !important;
   }
 
-  /* MENUボタン */
- .menu {
-  display: block !important;
-  margin-left: auto;
+  /* EXPLORE THE LAB */
+  .discover {
+    font-size: 9px !important;
+    margin-top: 22px !important;
+  }
 
-  background: transparent !important;
-  color: #e4c18d !important;
-
-  border: 1px solid #9a744b !important;
-  border-radius: 0;
-
-  padding: 8px 14px;
-
-  font-family: Arial, sans-serif;
-  font-size: 11px;
-  letter-spacing: .14em;
+  /* MENU */
+  .menu {
+    display: block !important;
+    margin-left: auto !important;
+    background: transparent !important;
+    color: #e4c18d !important;
+    border: 1px solid #9a744b !important;
+    border-radius: 0 !important;
+    padding: 8px 13px !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 11px !important;
+    letter-spacing: .12em !important;
+  }
 }
 
   /* ----------------------------
