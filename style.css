@@ -134,21 +134,22 @@
   }
 
   /* MENUボタン */
-  .menu {
-    display: block;
-    margin-left: auto;
+ .menu {
+  display: block !important;
+  margin-left: auto;
 
-    background: transparent;
-    color: #e4c18d;
+  background: transparent !important;
+  color: #e4c18d !important;
 
-    border: 1px solid #9a744b;
-    padding: 8px 13px;
+  border: 1px solid #9a744b !important;
+  border-radius: 0;
 
-    font-family: Arial, sans-serif;
-    font-size: 12px;
-    letter-spacing: .12em;
-  }
+  padding: 8px 14px;
 
+  font-family: Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: .14em;
+}
 
   /* ----------------------------
      トップ画像
@@ -168,34 +169,32 @@
      ---------------------------- */
 
   .hero-copy {
-    left: 7vw;
-    top: 50%;
-    width: 88vw;
+  left: 7vw;
+  top: 51%;
+  width: 86vw;
+  transform: translateY(-42%);
+}
 
-    transform: translateY(-42%);
-  }
+.hero h1 {
+  font-size: 36px !important;
+  line-height: 1.30 !important;
+  white-space: normal !important;
+  margin: 0 0 20px;
+}
 
+.hero h1 > .second {
+  display: block;
+  font-size: 0.72em !important;
+  line-height: 1.55 !important;
+  white-space: normal !important;
+  margin-top: 18px;
+}
 
-  /* 「人はなぜ犯罪に至るのか」 */
-  .hero h1 {
-    font-size: 42px;
-    line-height: 1.25;
-
-    /* PC版のnowrapをスマホでは解除 */
-    white-space: normal;
-  }
-
-
-  /* 「なぜ犯罪に至らない者もいるのか」 */
-  .hero h1 > .second {
-    font-size: .68em;
-    line-height: 1.55;
-
-    white-space: normal;
-
-    margin-top: .35em;
-  }
-
+.hero .sub {
+  font-size: 14px !important;
+  line-height: 1.85 !important;
+  margin-top: 28px;
+}
 
   /* 説明文 */
   .hero .sub {
