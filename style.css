@@ -26,3 +26,60 @@
   }
 
 }
+
+.contact{
+  padding:8vw 7vw;
+  background:#4a2918;
+  color:#eee6d7;
+}
+
+.contact h2{
+  font-size:clamp(38px,5vw,72px);
+  line-height:1.25;
+  font-weight:400;
+  margin:.2em 0;
+  color:#e4c18d;
+}
+
+.contact-lead{
+  max-width:760px;
+  margin-bottom:45px;
+}
+
+.contact-grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  border-top:1px solid #9a744b;
+}
+
+.contact-grid article{
+  padding:30px;
+  border-right:1px solid #9a744b;
+  border-bottom:1px solid #9a744b;
+}
+
+.contact-grid article:nth-child(2n){
+  border-right:0;
+}
+
+.contact-grid small{
+  font-family:Arial,sans-serif;
+  font-size:9px;
+  letter-spacing:.14em;
+  color:#d3a564;
+}
+
+.contact-grid h3{
+  font-size:24px;
+  margin:.5em 0;
+}
+
+@media(max-width:900px){
+  .contact-grid{
+    grid-template-columns:1fr;
+  }
+
+  .contact-grid article{
+    border-right:0;
+  }
+}
