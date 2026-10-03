@@ -6,25 +6,3 @@
 .intro,.research,.methods,.placeholder,.join{padding:8vw 7vw}.intro{display:grid;grid-template-columns:1fr 3fr;background:#e6ded0;color:#17120d}.intro h2,.research h2,.methods h2,.placeholder h2,.join h2{font-size:clamp(38px,5vw,72px);line-height:1.25;font-weight:400}.research{background:#18120d}.cards{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #765a38}.cards article{padding:28px 24px;border-right:1px solid #765a38;border-bottom:1px solid #765a38}.methods{background:#0c1516}.methodgrid{display:grid;grid-template-columns:1fr 1fr}.placeholder{background:#e4ddd0;color:#1b1510}.join{background:#4a2918}footer{padding:32px 7vw;background:#070605}
 @media(max-width:900px){.site-header{height:72px}.brand strong{font-size:16px}.brand small{display:none}.site-header nav{display:none}.menu{display:block;margin-left:auto}.hero-copy{left:7vw;width:86vw}.hero h1{font-size:clamp(42px,11vw,65px)}.intro{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.methodgrid{grid-template-columns:1fr}}
 
-/* PCヘッダーを大きくする */
-@media (min-width: 901px) {
-  .site-header {
-    height: 100px;
-  }
-
-  .brand strong {
-    font-size: 26px;
-  }
-
-  .brand small {
-    font-size: 11px;
-  }
-
-  .site-header nav a {
-    font-size: 14px;
-  }
-
-  .site-header nav small {
-    font-size: 10px;
-  }
-}
