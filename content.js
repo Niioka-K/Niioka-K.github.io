@@ -6,7 +6,7 @@
 
 const SITE_CONTENT = {
   labName: "犯罪認知脳科学研究室",
-  labNameEn: "Laboratory of Criminal Cognitive Neuroscience",
+  labNameEn: "Criminology & Cognitive Neuroscience Lab.",
 
   members: [
     // 例:
