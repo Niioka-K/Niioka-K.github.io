@@ -102,3 +102,128 @@
     border-right:0;
   }
 }
+
+
+  
+/* ========================================
+   スマホ表示 最終調整
+   ======================================== */
+
+@media (max-width: 900px) {
+
+  /* ヘッダー */
+  .site-header {
+    height: 72px;
+    padding: 0 5vw;
+  }
+
+  /* 研究室名 */
+  .site-header .brand strong {
+    font-size: 18px;
+    letter-spacing: .04em;
+  }
+
+  /* スマホでは英語研究室名を非表示 */
+  .site-header .brand small {
+    display: none;
+  }
+
+  /* PC用ナビゲーションを非表示 */
+  .site-header nav {
+    display: none;
+  }
+
+  /* MENUボタン */
+  .menu {
+    display: block;
+    margin-left: auto;
+
+    background: transparent;
+    color: #e4c18d;
+
+    border: 1px solid #9a744b;
+    padding: 8px 13px;
+
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: .12em;
+  }
+
+
+  /* ----------------------------
+     トップ画像
+     ---------------------------- */
+
+  .hero {
+    height: 100svh;
+    min-height: 720px;
+
+    /* スマホ用に画像の見える位置を調整 */
+    background-position: 54% center;
+  }
+
+
+  /* ----------------------------
+     トップの文章エリア
+     ---------------------------- */
+
+  .hero-copy {
+    left: 7vw;
+    top: 50%;
+    width: 88vw;
+
+    transform: translateY(-42%);
+  }
+
+
+  /* 「人はなぜ犯罪に至るのか」 */
+  .hero h1 {
+    font-size: 42px;
+    line-height: 1.25;
+
+    /* PC版のnowrapをスマホでは解除 */
+    white-space: normal;
+  }
+
+
+  /* 「なぜ犯罪に至らない者もいるのか」 */
+  .hero h1 > .second {
+    font-size: .68em;
+    line-height: 1.55;
+
+    white-space: normal;
+
+    margin-top: .35em;
+  }
+
+
+  /* 説明文 */
+  .hero .sub {
+    font-size: 15px;
+    line-height: 1.9;
+
+    margin-top: 28px;
+  }
+
+
+  /* EXPLORE THE LAB */
+  .discover {
+    margin-top: 24px;
+
+    font-size: 10px;
+  }
+
+
+  /* ----------------------------
+     CONTACT
+     ---------------------------- */
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid article {
+    border-right: 0;
+  }
+
+}
