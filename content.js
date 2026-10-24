@@ -7,10 +7,10 @@
 const SITE_CONTENT = {
   "site": {
     "labName": "犯罪認知脳科学研究室",
-    "labNameEn": "Criminology & Cognitive Neuroscience Laboratory",
+    "labNameEn": "Criminology & Cognitive Neuroscience Lab.",
     "pageTitle": "犯罪認知脳科学研究室 | Criminology & Cognitive Neuroscience Laboratory",
     "description": "犯罪現象を認知・脳・身体・行動・社会の多水準から捉える犯罪認知脳科学研究室。",
-    "footerEnglish": "LABORATORY OF CRIMINAL COGNITIVE NEUROSCIENCE"
+    "footerEnglish": "CRIMINOLOGY & COGNITIVE NEUROSCIENCE LAB."
   },
   "navigation": {
     "top": {
@@ -22,10 +22,80 @@ const SITE_CONTENT = {
       "ja": "お知らせ"
     },
     "about": {
-      "en": "ABOUT",
-      "ja": "研究室について"
-    },
-    "research": {
+    "label": "01 / ABOUT THE LAB",
+    "heading": [
+      "犯罪を「結果（点）」ではなく、",
+      "過程（経路）",
+      "として捉える。"
+    ],
+    "sections": [
+      {
+        "eyebrow": "01 / PERSPECTIVE",
+        "title": "犯罪を「結果（点）」ではなく、過程（経路）として捉える。",
+        "paragraphs": [
+          "犯罪は、ある瞬間に突然生まれるものではありません。",
+          "人には、それまでに歩んできた発達的な背景があり、家族、学校、友人、恋愛関係、地域社会などの中で、さまざまな経験を重ねています。同じ出来事を経験しても、それをどのように受け止め、意味づけるかは人によって異なります。そこから生じる感情や認知は、脳や身体の働きとも関係しながら、その後の判断や行動へとつながっていきます。"
+        ]
+      },
+      {
+        "eyebrow": "02 / DIVERGING PATHS",
+        "title": "同じ経験から、異なる行動へ。",
+        "paragraphs": [
+          "しかし、同じような逆境を経験した人が、同じ行動をとるわけではありません。",
+          "強い怒りを感じても、攻撃する人としない人がいます。",
+          "復讐したいと思っても、実行する人と途中で思いとどまる人がいます。",
+          "幼少期に深刻な逆境を経験しても、犯罪に至る人と至らない人がいます。"
+        ],
+        "highlights": [
+          "人は、どのような過程を経て犯罪へ近づくのか。",
+          "そして、どこで異なる道へ分かれるのか。"
+        ]
+      },
+      {
+        "eyebrow": "03 / COGNITION & SCIENCE",
+        "title": "認知を中心に、人間を多水準から捉える。",
+        "paragraphs": [
+          "犯罪認知脳科学研究室（Criminology & Cognitive Neuroscience Lab.）は、この問いを科学的に明らかにすることを目指しています。",
+          "私たちが中心に据えるのは、人間の「認知」です。犯罪にかかわる認知がどのような経験から形成され、感情と相互に作用し、脳・身体にどのように現れ、どのような条件で実際の行動へ移行する、あるいは移行しないのかを研究します。",
+          "そのため本研究室では、犯罪を一つの原因や一つの学問領域だけに還元するのではなく、心理学を中心として、認知科学、脳科学、心理生理学、心理測定学、データサイエンスなどを横断しながら研究しています。"
+        ],
+        "disciplines": [
+          "心理学",
+          "認知科学",
+          "脳科学",
+          "心理生理学",
+          "心理測定学",
+          "データサイエンス"
+        ]
+      },
+      {
+        "eyebrow": "04 / BEYOND THE ACT",
+        "title": "犯罪に至る前から、犯罪が社会に残すものまで。",
+        "paragraphs": [
+          "同時に、研究対象は犯罪をする人だけではありません。",
+          "犯罪を知った人が犯人をどのように知覚するのか。犯罪によって偏見や犯罪不安はどのように生まれるのか。人は何を根拠に責任や刑罰を判断するのか。犯罪が生じた後の社会の認知や感情も、犯罪を理解するための重要な研究対象です。"
+        ]
+      },
+      {
+        "eyebrow": "05 / OUR PURPOSE",
+        "title": "複雑な人間を、複雑なまま科学する。",
+        "paragraphs": [
+          "目指しているのは、単に「犯罪者にはどのような特徴があるのか」を明らかにすることではありません。"
+        ],
+        "highlights": [
+          "なぜその人は、その経験から、その認知や感情を形成し、その行動へ至ったのか。",
+          "なぜ別の人は、同じような地点から異なる道を歩んだのか。"
+        ],
+        "closing": [
+          "その経路と分かれ道を理解することで、犯罪者心理の理解だけでなく、犯罪捜査、更生支援、そして犯罪に至らないための予防へと科学的知見をつなげていきます。",
+          "犯罪に至る前から、犯罪が社会に残すものまで。",
+          "複雑な人間を、複雑なまま科学すること。",
+          "それが、私たちの目指す研究です。"
+        ]
+      }
+    ]
+  },
+  "research": {
       "en": "RESEARCH",
       "ja": "研究テーマ"
     },
@@ -269,3 +339,24 @@ renderContent();
 renderList('members-list',SITE_CONTENT.members,x=>`<div class="data-row"><b>${safeText(x.role)}</b><span><strong>${safeText(x.name)}</strong><small>${safeText(x.detail)}</small></span></div>`,'メンバー情報は準備中です。');
 renderList('publications-list',SITE_CONTENT.publications,x=>`<div class="data-row"><b>${safeText(x.year)}</b><span>${safeText(x.text)}</span></div>`,'研究業績は準備中です。');
 renderList('news-list',SITE_CONTENT.news,x=>`<div class="data-row"><b>${safeText(x.date)}</b><span>${safeText(x.text)}</span></div>`,'お知らせはありません。');
+
+/* ABOUT本文は content.js の about.sections から生成します。 */
+function renderAboutStory() {
+ const target=document.getElementById('about-story');
+ if(!target) return;
+ const make=(tag,className,text)=>{const e=document.createElement(tag);if(className)e.className=className;e.textContent=text;return e;};
+ SITE_CONTENT.about.sections.forEach((section,i)=>{
+   const block=document.createElement('section');block.className='about-chapter'+(i%2?' about-chapter-alt':'');
+   const inner=make('div','about-chapter-inner','');
+   const aside=make('div','about-chapter-side','');
+   aside.append(make('span','about-eyebrow',section.eyebrow));
+   const body=make('div','about-chapter-body','');
+   body.append(make('h2','',section.title));
+   (section.paragraphs||[]).forEach(t=>body.append(make('p','',t)));
+   if(section.highlights?.length){const box=make('div','about-questions','');section.highlights.forEach(t=>box.append(make('p','',t)));body.append(box);}
+   if(section.disciplines?.length){const tags=make('div','about-disciplines','');section.disciplines.forEach(t=>tags.append(make('span','',t)));body.append(tags);}
+   if(section.closing?.length){const end=make('div','about-closing','');section.closing.forEach((t,j)=>end.append(make('p',j===1?'about-closing-gold':'',t)));body.append(end);}
+   inner.append(aside,body);block.append(inner);target.append(block);
+ });
+}
+renderAboutStory();
