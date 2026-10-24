@@ -21,7 +21,51 @@ const SITE_CONTENT = {
       "en": "NEWS",
       "ja": "お知らせ"
     },
-    "about": {
+    "about": {"en":"ABOUT","ja":"研究室について"},
+  "research": {
+      "en": "RESEARCH",
+      "ja": "研究テーマ"
+    },
+    "methods": {
+      "en": "METHODS",
+      "ja": "研究手法"
+    },
+    "people": {
+      "en": "MEMBERS",
+      "ja": "メンバー"
+    },
+    "output": {
+      "en": "PUBLICATIONS",
+      "ja": "研究業績"
+    },
+    "lab-notes": {
+      "en": "LAB NOTES",
+      "ja": "研究ノート"
+    },
+    "contact": {
+      "en": "CONTACT",
+      "ja": "お問い合わせ"
+    }
+  },
+  "hero": {
+    "question1": [
+      "人はなぜ",
+      "犯罪",
+      "に至るのか"
+    ],
+    "question2": [
+      "なぜ",
+      "犯罪に至らない",
+      "者もいるのか"
+    ],
+    "description": [
+      "犯罪を、ひとつの要素だけに還元しない。",
+      "認知・脳を中心として、発達・経験・身体・行動・社会をつなぎ、",
+      "時間的推移・分岐のプロセスを多水準から解明する。"
+    ],
+    "button": "EXPLORE THE LAB"
+  },
+  "about": {
     "label": "01 / ABOUT THE LAB",
     "heading": [
       "犯罪を「結果（点）」ではなく、",
@@ -94,58 +138,6 @@ const SITE_CONTENT = {
         ]
       }
     ]
-  },
-  "research": {
-      "en": "RESEARCH",
-      "ja": "研究テーマ"
-    },
-    "methods": {
-      "en": "METHODS",
-      "ja": "研究手法"
-    },
-    "people": {
-      "en": "MEMBERS",
-      "ja": "メンバー"
-    },
-    "output": {
-      "en": "PUBLICATIONS",
-      "ja": "研究業績"
-    },
-    "lab-notes": {
-      "en": "LAB NOTES",
-      "ja": "研究ノート"
-    },
-    "contact": {
-      "en": "CONTACT",
-      "ja": "お問い合わせ"
-    }
-  },
-  "hero": {
-    "question1": [
-      "人はなぜ",
-      "犯罪",
-      "に至るのか"
-    ],
-    "question2": [
-      "なぜ",
-      "犯罪に至らない",
-      "者もいるのか"
-    ],
-    "description": [
-      "犯罪を、ひとつの要素だけに還元しない。",
-      "認知・脳を中心として、発達・経験・身体・行動・社会をつなぎ、",
-      "時間的推移・分岐のプロセスを多水準から解明する。"
-    ],
-    "button": "EXPLORE THE LAB"
-  },
-  "about": {
-    "label": "01 / ABOUT THE LAB",
-    "heading": [
-      "犯罪を「結果」ではなく、",
-      "プロセス",
-      "として捉える。"
-    ],
-    "description": "犯罪現象を認知と脳を中心とした多水準から捉え、水準間のつながりと、時間的推移・犯罪する／しないの分岐を科学的に解明する。"
   },
   "research": {
     "label": "02 / RESEARCH",

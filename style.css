@@ -89,3 +89,9 @@
 .about-closing p:last-child{font-size:clamp(25px,2.6vw,38px);color:#e4c18d;margin-top:28px}
 .about-closing .about-closing-gold{color:#d7ac70;font-size:clamp(22px,2.1vw,30px)}
 @media(max-width:900px){.about-intro{padding:60px 7vw}.about-chapter{padding:55px 7vw}.about-chapter-inner{grid-template-columns:1fr;gap:16px}.about-chapter-body>p{font-size:16px}.about-chapter-body h2{margin-bottom:22px}.about-questions{padding-left:18px}}
+
+/* ABOUT fixes: keep long heading readable and footer on separate lines */
+.about-intro h2{font-size:clamp(30px,3.25vw,54px);max-width:1250px;overflow-wrap:anywhere}
+footer strong,footer small{display:block}
+footer small{margin-top:7px;font:11px Arial,sans-serif;letter-spacing:.08em;color:#c8ad82}
+@media(max-width:900px){.about-intro h2{font-size:clamp(28px,7vw,42px)}.about-intro h2 br{display:none}}
