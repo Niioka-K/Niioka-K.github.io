@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const current=location.pathname.split('/').pop()||'index.html';document.querySelectorAll('.site-header nav a').forEach(a=>{if(a.getAttribute('href')===current)a.setAttribute('aria-current','page');a.addEventListener('click',()=>document.body.classList.remove('open'));});});
