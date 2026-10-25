@@ -735,13 +735,15 @@ footer {
 }
 
 .about-chapter-inner {
-  display:grid;
-  grid-template-columns:minmax(175px,1fr) minmax(0,3fr);
-  gap:5vw;
-  max-width:1500px;
-  margin:auto
+  display: block;
+  max-width: 1400px;
+  margin: auto;
 }
-
+/* ABOUTの各章の番号を非表示 */
+.about-chapter-side {
+  display: none;
+}
+                 
 .about-eyebrow {
   font:11px Arial,sans-serif;
   letter-spacing:.17em;
@@ -751,7 +753,7 @@ footer {
 }
 
 .about-chapter-body {
-  max-width:950px
+  max-width:1100px
 }
 
 .about-chapter-body h2 {
@@ -867,6 +869,59 @@ footer small {
   }
 }
 
+/* ===================================
+   ABOUTページの背景色
+   =================================== */
+
+.about-intro,
+.about-chapter,
+.about-chapter-alt {
+  background: #e6ded0;
+  color: #17120d;
+}
+
+/* ABOUTの見出しと本文の文字色 */
+
+.about-intro h2,
+.about-chapter-body h2,
+.about-chapter-body > p {
+  color: #17120d;
+}
+
+/* ゴールドの見出しラベル */
+
+.about-eyebrow,
+.about-intro .label {
+  color: #a4773f;
+}
+
+/* 強調された問い */
+
+.about-questions p {
+  color: #17120d;
+}
+
+/* 強調枠の線 */
+
+.about-questions {
+  border-left-color: #a4773f;
+}
+
+/* 最後のメッセージ */
+
+.about-closing p {
+  color: #17120d;
+}
+
+.about-closing p:last-child {
+  color: #8b5c28;
+}
+
+/* 学問領域のタグを非表示 */
+.about-disciplines {
+  display: none;
+}
 
 
 
+                 
